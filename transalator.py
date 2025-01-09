@@ -29,7 +29,7 @@ message = [
     SystemMessage ("Pls transalate the following to romanized ."),
     HumanMessage ("How are you!"),
 ]
-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
+
 result=model.invoke(message)
 # print(result)
 
