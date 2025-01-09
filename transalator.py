@@ -1,7 +1,7 @@
 import getpass
 import os
 # set up key
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "your-api-key-here"
 from langchain_openai import ChatOpenAI
 from langchain_core.messages import HumanMessage, SystemMessage
 from langchain_core.prompts import ChatPromptTemplate
@@ -29,7 +29,7 @@ message = [
     SystemMessage ("Pls transalate the following to romanized ."),
     HumanMessage ("How are you!"),
 ]
-
+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
 result=model.invoke(message)
 # print(result)
 
